@@ -71,17 +71,24 @@ core implementation to own:
 
 Discussion thread: see the *Ideas* post linking this repository.
 
-## Install (bundled into a profile)
+## Install
+
+Not on the npm registry yet, but installable straight from git (verified in a clean directory):
+`npm i github:almazom/dsh-needs-attention` → one package, four seconds, all files present.
+
+Then mount it into a profile — dependency plus one bundle row:
 
 ```jsonc
 // profile package.json
 {
-  "dependencies": { "@almazom/dsh-needs-attention": "file:/path/to/dsh-needs-attention" },
+  "dependencies": { "@almazom/dsh-needs-attention": "github:almazom/dsh-needs-attention" },
   "dsh": { "profile": { "bundles": [{ "name": "@almazom/dsh-needs-attention", "row": "needs-attention" }] } }
 }
 ```
 
-The package is not published to npm; use a local path or a git dependency.
+Restart the lane, then reload the web UI. Requirements: DSH `>=0.2.0-rc.1`, a profile whose
+`dsh.profile.bundles` you can edit, and read access to the local session logs (`$DSH_HOME/sessions`,
+default `~/.dsh/sessions`).
 
 ## License
 

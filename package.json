@@ -1,7 +1,7 @@
 {
   "name": "@almazom/dsh-needs-attention",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.2.0",
+  "private": false,
   "type": "module",
   "description": "First-class 'Needs Attention' sidebar section listing sessions whose latest terminal event is an error: red = fatal turn error/abort (413/5xx/auth/model failure), amber = 429/rate-limit pressure. Server-side on-request log scan (mtime cache + tail-only + 20s throttle) via ctx.inject webServer route; client injects the section above Workspaces per approved proto variant A. Zero core edits.",
   "main": "index.mjs",
@@ -24,5 +24,25 @@
       "platform": "web"
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "index.mjs",
+    "cordis.patch.yml",
+    "src",
+    "tests",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almazom/dsh-needs-attention.git"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "sidebar",
+    "errors"
+  ]
 }
