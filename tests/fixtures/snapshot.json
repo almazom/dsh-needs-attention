@@ -1,0 +1,825 @@
+{
+ "asOf": 1793335330940,
+ "source": "POST /api/session/list {} @127.0.0.1:3096 (stable lane)",
+ "workspaces": [
+  "default-workspace",
+  "dsh-argon-prototype-mobile",
+  "dsh-stable",
+  "dsh-trae-bridge",
+  "temp",
+  "trae-decomposition"
+ ],
+ "sessions": [
+  {
+   "id": "session-5d26f9af-9348-4508-938a-a79adc3db5de",
+   "title": "dsh-voice-input-almazom_v2.1",
+   "ws": "temp",
+   "running": true,
+   "updatedAt": 1793334940195,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-caa76dbd-bd9d-4f15-9793-796d86048cec",
+   "title": "ⓕ Плагин тем DeepSeek",
+   "ws": "default-workspace",
+   "running": true,
+   "updatedAt": 1793334741184,
+   "pinned": false,
+   "error": {
+    "level": "red",
+    "kind": "turn-error",
+    "time": 1793278811017,
+    "message": "413 Maximum request body size 5242880 exceeded."
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-810b681f-a244-4572-8fce-51acb128df3f",
+   "title": "Meta Manager",
+   "ws": "default-workspace",
+   "running": true,
+   "updatedAt": 1793334599276,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793274057746,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1308\",\"message\":\"[1308][Usage limit reached for 5 hour. Your limit will reset at 2026-10-29 20:17:40][20261029194056e9cb52d104df44af]\"},\"request_id\":\"20261029194056e9cb52d104df44af\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-4db8ca18-dbe9-49a8-82c6-c351787eb81a",
+   "title": "OpenCode Remote Access Key Help",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793333305616,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-8ef2067e-6b68-40d7-ba62-ef0364938df3",
+   "title": "[panic(cpu 4 caller 0xfffffe003c3c881c):",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793332724996,
+   "pinned": false,
+   "error": {
+    "level": "red",
+    "kind": "aborted",
+    "time": 1793332802900,
+    "message": "turn aborted: {'kind': 'user'}"
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-b15b64a7-f0fa-4603-9fe8-1a4c7fd855d8",
+   "title": "ⓕ Worker — design-expert Fitzcarraldo",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793294709098,
+   "pinned": true,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793254702396,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][20261029141822e610036d6e6248b9]\"},\"request_id\":\"20261029141822e610036d6e6248b9\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-f4bb81f4-fe88-4c94-8f10-0ab7b11e3b22",
+   "title": "Duty Manager — наблюдает 3 сессии · beat 30m",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793293332075,
+   "pinned": true,
+   "error": {
+    "level": "red",
+    "kind": "turn-error",
+    "time": 1793282903334,
+    "message": "500 {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"code\":\"1234\",\"message\":\"[1234][Internal network failure, error id: 202610292207401fc2e45e7d2a4e30, please try again later.][202610292207401fc2e45e7d2a4e30]\"},\"request_id\":\"202610292207401fc2e45e7d2a4e30\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-b0cb91ef-ecaf-4982-a448-c6af516af884",
+   "title": "ⓕ Worker — duty observe verbs + adapters",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793293225080,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-c13e8cfa-f7b0-4d99-baf4-282fbd0b263f",
+   "title": "ⓕ VoicePill голосовой ассистент",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793293169991,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793260457310,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][202610291554152628d186a21d4a25]\"},\"request_id\":\"202610291554152628d186a21d4a25\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-f6bc676f-6805-4275-b74a-b86ab4204c8e",
+   "title": "ⓕ Worker — deck session-scoping T5",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793282689676,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793282950510,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][2026102922090890fe76499e444b0e]\"},\"request_id\":\"2026102922090890fe76499e444b0e\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-bdcab26a-d9af-4872-9a7c-8e43e064f0fb",
+   "title": "ⓕ Jarvis p2c конвейер",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793282564750,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793263145401,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1308\",\"message\":\"[1308][Usage limit reached for 5 hour. Your limit will reset at 2026-10-29 20:17:40][202610291639046730bf68bcb6442f]\"},\"request_id\":\"202610291639046730bf68bcb6442f\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-79504a41-b04f-452f-9ae1-dbc544796376",
+   "title": "ⓕ Jarvis — проверить бэкапы",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793263804767,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793263805714,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1308\",\"message\":\"[1308][Usage limit reached for 5 hour. Your limit will reset at 2026-10-29 20:17:40][20261029165005189a6ee369354a1b]\"},\"request_id\":\"20261029165005189a6ee369354a1b\"}"
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-b03321cf-b9cc-4a4b-b087-472566a70804",
+   "title": "ⓕ Jarvis — проверить бэкапы",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793263737994,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793263738835,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1308\",\"message\":\"[1308][Usage limit reached for 5 hour. Your limit will reset at 2026-10-29 20:17:40][20261029164858a9f5e1f1365442e2]\"},\"request_id\":\"20261029164858a9f5e1f1365442e2\"}"
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-f43e709a-1018-4677-a452-3ff63f0ddabe",
+   "title": "ⓕ Jarvis — проверить бэкапы",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793263534632,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793263535444,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1308\",\"message\":\"[1308][Usage limit reached for 5 hour. Your limit will reset at 2026-10-29 20:17:40][20261029164535d8d2c12ebef04563]\"},\"request_id\":\"20261029164535d8d2c12ebef04563\"}"
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-4e2254b2-5015-451c-9390-78915d62d519",
+   "title": "ⓕ Jarvis — проверить бэкапы",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793262964293,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-1ea4ed8c-6fd7-4d58-8b8b-23a02805b7ea",
+   "title": "ⓕ Worker — deck theme-aware",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793260436566,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793261191438,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][20261029160631e8c7e15df139492b]\"},\"request_id\":\"20261029160631e8c7e15df139492b\"}"
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-453d0bc4-6ef8-453f-b720-b41ce18c7a36",
+   "title": "ⓕ Worker — duty-observation plan2trello",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793260094779,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-de4d57a5-6839-4fa4-84c0-6f00ddcc533a",
+   "title": "Basic Arithmetic Calculation",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793256503149,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-46c0b518-cd4f-4c7e-94b4-4d8ce620b251",
+   "title": "Simple addition query",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793256484632,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-c043db5b-cd17-4763-9eb2-8cc224c1a7f2",
+   "title": "Сушу меня к тебе, така",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793256313219,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793256111338,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][20261029144150b2e902f8b1f94e84]\"},\"request_id\":\"20261029144150b2e902f8b1f94e84\"}"
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-f4c40dbf-5341-4a10-850e-c882fe9db6b7",
+   "title": "Simple Arithmetic Calculation",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793255640543,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-82b7f559-adc8-45c8-8169-2b6d1c7f2bb7",
+   "title": "Simple Addition Question",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793255621994,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-acb9b743-d9ee-4360-b1e6-8470a27ae41f",
+   "title": "Simple addition question",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793255462230,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-00f66b2b-06a1-4198-b2b2-eecee90a3ceb",
+   "title": "Simple Addition Query",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793255354472,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-7c7bc9b0-32bf-418f-8147-a92e864f8a03",
+   "title": "Simple addition question",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793253832082,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-56787e8f-2468-431c-a578-c3978b8409ef",
+   "title": "Simple addition query",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793253729438,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-4dc01c27-30f0-435d-af2d-0e0034933870",
+   "title": "1+2=",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793253510864,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-7542e9d7-9d4a-4636-9b49-ef89cae34143",
+   "title": "Simple addition query",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793253304375,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-2508c2d8-d4da-439d-858d-dfb03c7759f6",
+   "title": "Worker — OV PR 6366 mention",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793250410967,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-28881e2d-508c-4419-8e0b-ea472c9b757f",
+   "title": "Duty. PR's",
+   "ws": "dsh-stable",
+   "running": false,
+   "updatedAt": 1793249983815,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-8f21f448-bfa6-41da-b056-b5ac07bbf9b5",
+   "title": "Test pilot — training picker",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793248640327,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793250328466,
+    "message": "429: {\"message\":\"No deployments available for selected model, Try again in 10 seconds. Passed model=gemma-4-12b. pre-call-checks=False, cooldown_list=['aea942d9398e4f95b2b3a3e84fc8939fc558fc0786a1c2f3f3841c2e39c43a8b', 'e6815ed09f34a7198d712e3f9bf39b8dc7e2f2a03a6aa61f1ec186ae0ad0"
+   },
+   "errCount": 2
+  },
+  {
+   "id": "session-d76b3b01-d9bb-4347-b64d-dddd89be327f",
+   "title": "Jarvis — проверить статус бэкапов и ответит",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793216778456,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793214572047,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][2026102903093206d7a9a7179b40df]\"},\"request_id\":\"2026102903093206d7a9a7179b40df\"}"
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-5d66c23c-8660-4845-9d27-69b5872e1864",
+   "title": "Meta-Manager",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793212806167,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-c90188ed-ea76-4339-951b-71386994c000",
+   "title": "Fix opencode loading over Tailscale",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793205122496,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-fa93e641-8455-43e3-b9b9-3165c8785b98",
+   "title": "Чтобы проверить работ",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793196488802,
+   "pinned": false,
+   "error": {
+    "level": "red",
+    "kind": "aborted",
+    "time": 1793196493849,
+    "message": "turn aborted: {'kind': 'user'}"
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-b1cc4de0-1669-48d4-ac77-708e1afc98f6",
+   "title": "https://github.com/google/ax read deep a",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793196215317,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-0c133146-71e5-48ab-ba67-f3378aa20132",
+   "title": "Зайчик вышел погулять",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793196091741,
+   "pinned": false,
+   "error": {
+    "level": "red",
+    "kind": "aborted",
+    "time": 1793196093935,
+    "message": "turn aborted: {'kind': 'user'}"
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-aa57715a-9449-4b8e-8907-d5c7c9009126",
+   "title": "Раз, два, три, четыре, п",
+   "ws": "default-workspace",
+   "running": false,
+   "updatedAt": 1793194718304,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-5b7bcb5a-3e52-48d6-beff-cead93a38006",
+   "title": "alisa apk",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793174887462,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793176173970,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][202610281629337a188d3735334959]\"},\"request_id\":\"202610281629337a188d3735334959\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-57670e78-5832-4b9e-b2a2-5686920d30c0",
+   "title": "look at thsi apk file.",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793173442601,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793173464497,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][20261028154423696af77590e74598]\"},\"request_id\":\"20261028154423696af77590e74598\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-7e898ec7-6c4a-4ec0-b994-f7a621ba76b5",
+   "title": "iFlytek.apk",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793173315424,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793172709433,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][202610281531480015f26681a941c2]\"},\"request_id\":\"202610281531480015f26681a941c2\"}"
+   },
+   "errCount": 2
+  },
+  {
+   "id": "session-ca944677-6c59-4978-92ce-781166966802",
+   "title": "i want you to ask",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793173216330,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793172590929,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][20261028152950a85379e9a7134220]\"},\"request_id\":\"20261028152950a85379e9a7134220\"}"
+   },
+   "errCount": 2
+  },
+  {
+   "id": "session-424e83e3-9ee7-4bff-8287-377256b46cf5",
+   "title": "yandex model",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793172509113,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793171590051,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][2026102815130910c9e9e9ddc048c5]\"},\"request_id\":\"2026102815130910c9e9e9ddc048c5\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-84eb8a8a-e3f0-45c7-89f8-775fec297bd8",
+   "title": "marusya",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793172494292,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793175480975,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][20261028161800e561d500dfbc4abb]\"},\"request_id\":\"20261028161800e561d500dfbc4abb\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-7ca6d033-48d5-4957-9fd7-5e9596b1a3f3",
+   "title": "p2c",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793170756889,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-39c11e03-73b1-474d-8c8a-dc00f0435287",
+   "title": "apk suggestions",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793170496874,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793170818431,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][20261028150017519fa023dc734d80]\"},\"request_id\":\"20261028150017519fa023dc734d80\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-2376372e-26e6-41a2-bce5-984c42610664",
+   "title": "Duty - Finances",
+   "ws": "dsh-stable",
+   "running": false,
+   "updatedAt": 1793169055555,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-5b4ea490-93aa-4f24-b408-ae2658bea159",
+   "title": "i wan you to locate",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793107101649,
+   "pinned": false,
+   "error": {
+    "level": "red",
+    "kind": "aborted",
+    "time": 1793097998296,
+    "message": "turn aborted: {'kind': 'user'}"
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-2b0ffe59-770f-4281-b973-0036ed61c9bb",
+   "title": "1+2=...",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793095038082,
+   "pinned": false,
+   "error": {
+    "level": "red",
+    "kind": "turn-error",
+    "time": 1793095038123,
+    "message": "pi-ai provider \"opencode-go\" model \"minimax-m3.1-flash\" does not support reasoning effort \"high\""
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-3f514aa4-33a5-40a6-8cb8-835fb23b2fee",
+   "title": "Автовыбор high при смене модели",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793094788103,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-469186d3-1342-4c90-8710-5906864bd7c2",
+   "title": "ⓕ Dev — T5 close-reading.ru 502",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793094784117,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-37be913c-b2a5-4d71-813e-7e6d9d4b9bc2",
+   "title": "dsh instances - move",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793093432074,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-f17551f1-0a2a-452c-854e-4626a42b9d08",
+   "title": "Deep review of voice input plugin proposals",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793089524508,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793091743446,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][20261027170222ecebc296ac1e4a06]\"},\"request_id\":\"20261027170222ecebc296ac1e4a06\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-f810b5b4-f5f2-4cb8-8a3e-ddf8550e7904",
+   "title": "ⓕ Duty Worker — T4 wl-v17 impl",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793089418542,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-6d80a88c-4b30-4b92-8ae7-7b1cf13e962e",
+   "title": "ⓕ Worker A — OrbStack research",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793088877144,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-76366bc3-14e4-489e-881f-4ca97c489a9c",
+   "title": "1+2=...",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793088786651,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-910fc1d8-b3f6-4757-929e-3ab04365d2cc",
+   "title": "Lower Disk Pressure",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793088777611,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-45b2d4c3-fd0a-4149-b879-c22eaac67b36",
+   "title": "ⓕ Duty Worker — T3 Mate X3 v16 deploy",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793081730428,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-9c02718a-c51c-495f-b366-64b973ef3f1f",
+   "title": "ⓕ Duty Worker — T2 white-label v16 builder",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793077650766,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-df7e15e5-5592-4252-a832-085045713287",
+   "title": "ⓕ Duty Worker — DR4 sing-tun stack research",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793075085895,
+   "pinned": false,
+   "error": null,
+   "errCount": 0
+  },
+  {
+   "id": "session-4b27acd5-0bf9-49f7-87a3-8ca34dd25155",
+   "title": "Debug dsh stable model picker",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793022425670,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1792996618388,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][20261026143657182fa8e2007a45cb]\"},\"request_id\":\"20261026143657182fa8e2007a45cb\"}"
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-ad3591a0-b0cf-43d4-9ede-6bc099101c70",
+   "title": "Compare latest dsh to dsh-stable",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793012886958,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793010301849,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][2026102618250051098e636d8b4f41]\"},\"request_id\":\"2026102618250051098e636d8b4f41\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-79fa2ba1-7198-433f-8543-0530c6da75b4",
+   "title": "k3.1 pro review cassete deck",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1793007377727,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1793003076831,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1308\",\"message\":\"[1308][Usage limit reached for 5 hour. Your limit will reset at 2026-10-26 16:59:13][202610261624368bca974592254b9a]\"},\"request_id\":\"202610261624368bca974592254b9a\"}"
+   },
+   "errCount": 3
+  },
+  {
+   "id": "session-c52f7d3b-70fd-44f2-a2da-f3456cfe81d4",
+   "title": "billi fix",
+   "ws": "temp",
+   "running": false,
+   "updatedAt": 1792867661550,
+   "pinned": false,
+   "error": {
+    "level": "amber",
+    "kind": "turn-error",
+    "time": 1792859811041,
+    "message": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"code\":\"1302\",\"message\":\"[1302][Rate limit reached for requests][20261025003650b0e71ccb6fc440eb]\"},\"request_id\":\"20261025003650b0e71ccb6fc440eb\"}"
+   },
+   "errCount": 1
+  },
+  {
+   "id": "session-e6f9ce67-092b-44d9-a7a2-500f0178b3a8",
+   "title": "Расскажи кратко что в этой сессии делается",
+   "ws": null,
+   "running": false,
+   "updatedAt": 1792832752712,
+   "pinned": false,
+   "error": {
+    "level": "red",
+    "kind": "aborted",
+    "time": 1792833767015,
+    "message": "turn aborted: {'kind': 'disposed'}"
+   },
+   "errCount": 1
+  }
+ ],
+ "note": "running/blank/origin = real; error = mined from session.v*.jsonl.zstd (turn/end reason.error / rate-limit text)"
+}
